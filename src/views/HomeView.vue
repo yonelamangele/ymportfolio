@@ -124,9 +124,9 @@ a {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .home {
-    margin: 9.2em 0 6em !important
+    margin: 9em 0 6.5em !important
   }
 
   #middle {
@@ -147,7 +147,10 @@ a {
 @media screen and (max-width: 768px) {
   .home {
     height: 40vh !important;
-    margin: 8.5em 0 6.8em !important
+    margin: 8.5em 0 7.7em !important
+  }
+  #middle {
+    height: 15em;
   }
 }
 
@@ -163,8 +166,8 @@ a {
 
 @media screen and (max-width: 426px) {
   .home {
-    height: 45vh !important;
-    margin: 1.9em 0 4.9em !important
+    height: 64.5vh !important;
+    margin: 1.3em 0 5.1em !important
   }
 
   #middle {
@@ -195,7 +198,8 @@ a {
 
 @media screen and (max-width: 396px) { 
   .home {
-    margin: 3.5em 0 5em !important
+    height: 60vh !important;
+    margin: 4.5em 0 4.85em !important
   }
 
   .pic {
