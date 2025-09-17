@@ -8,7 +8,7 @@
     .loader {
         position: fixed;
         top: 50%;
-        left: 46%;
+        left: 49%;
         transform: translate(-50%, -50%);
         z-index: 9999;
     }
@@ -41,6 +41,18 @@
     @keyframes ballMoveX {
         0% , 10%{  transform: translateX(0) }
         90%, 100% { transform: translateX(32px) }
+    }
+
+    @media screen and (max-width: 425px) {
+        .loader {
+            left: 40% !important
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .loader {
+            left: 39% !important
+        }
     }
       
 </style>

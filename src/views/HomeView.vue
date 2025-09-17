@@ -53,7 +53,7 @@ export default {
     top: 0;
     left: 0;
     background: #5C8374;
-    width: 100vw;
+    width: 100vw; 
     height: 100vh;
     display: flex;
     align-items: center;
@@ -163,7 +163,7 @@ a {
 
 @media screen and (max-width: 426px) {
   .home {
-    height: 58.5vh !important;
+    height: 60vh !important;
     margin: 1.9em 0 4.9em !important
   }
 
@@ -195,7 +195,7 @@ a {
 
 @media screen and (max-width: 396px) { 
   .home {
-    margin: 3.5em 0 4.1em !important
+    margin: 3.5em 0 5.2em !important
   }
 
   .pic {
