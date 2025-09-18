@@ -33,14 +33,8 @@ html, body {
   background: linear-gradient(#092635, #1B4242, #5C8374, #9EC8B9);
   background-size: cover;
   background-repeat:  no-repeat;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
-/* @media screen and (max-width: 425px){
-  #app {
-    min-height: 60vh !important;
-  }
-} */
 </style>
