@@ -15,7 +15,7 @@
 }
 
 p {
-  margin: 1em 0 1em 0;
+  margin: 0.5em 0 0.5em 0;
 }
 
 @media screen and (max-width: 396px) {
